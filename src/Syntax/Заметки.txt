@@ -1,0 +1,30 @@
+Подстрока
+https://dev-gang.ru/article/java-kak-proverit-soderzhit-li-stroka-podstroku-0c4hoa1j3h/
+
+Туториал по джаве
+https://www.softwaretestinghelp.com/java/
+
+Сайт по джаве и спрингу, list iterator
+https://www.baeldung.com/java-iterate-list
+
+Модификаторы доступа
+http://developer.alexanderklimov.ru/android/java/package.php
+В одном пакете должны быть разные названия класов
+
+                    private         Модификатор не указан       protected       public
+В том же классе	    Да	            Да	                        Да	            Да
+
+Подкласс класса
+этого же пакета	    Нет	            Да	                        Да	            Да
+
+Класс из общего
+пакета, не являющийся
+подклассом	        Нет	            Да	                        Да	            Да
+
+Подкласс класса
+другого пакета	    Нет	            Нет	                        Да	            Да
+
+Класс другого пакета,
+не являющий подклассом
+класса данного
+пакета	            Нет	            Нет	                        Нет	            Да

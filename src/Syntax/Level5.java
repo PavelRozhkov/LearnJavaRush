@@ -128,7 +128,6 @@ class Lecture12 implements Lecture{
     public void run(){
         //LocalDateTime localDateTime = new LocalDateTime(LocalDateTime.now().toLocalDate(), LocalDateTime.now().toLocalTime());
         //System.out.println(LocalDateTime.now().getYear());
-
         System.out.println("Текущая дата: "+LocalDateTime.now().getYear()+" "+LocalDateTime.now().getMonth().getValue()+" "+LocalDateTime.now().getDayOfMonth());
     }
 }
@@ -142,10 +141,8 @@ public class Level5 {
         // создаем экземпляр интерфейса
         // теперь в программе можем создавать объекты Lecture
         // как экземпляры обоих классов: Lecture7 и Lecture6
+        //подставляем номер в Lecture 6-12
          Lecture object = new Lecture12();
          object.run();
     }
-
-
-
 }
