@@ -1,8 +1,10 @@
 package Syntax;
 
+import javax.xml.transform.sax.SAXSource;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.util.*;
 
 // массивы https://javarush.com/quests/lectures/questsyntax.level07.lecture01
@@ -209,6 +211,96 @@ class Lev7Lec6Task4 implements Lecture {
     }
 }
 
+class Lev7Lec10Task1 implements Lecture{
+    @Override
+    public String info() {
+        return "Сортировка массива чисел классом Arrays";
+    }
+
+    @Override
+    public void run() {
+        this.getinfo();
+        ListClass listClass = new ListClass();
+        System.out.println("До "+Arrays.toString(listClass.numbers));
+        Arrays.sort(listClass.numbers);
+        System.out.println("После "+Arrays.toString(listClass.numbers));
+
+    }
+}
+
+class Lev7Lec10Task2 implements Lecture{
+    @Override
+    public String info() {
+        return "Обработка массивов чисел классом Arrays";
+    }
+
+    @Override
+    public void run() {
+        this.getinfo();
+        ListClass listClass = new ListClass();
+        System.out.println("Массив "+Arrays.toString(listClass.numbers));
+        System.out.print("Новый массив nubm2 длиной 2 элемента ");
+        int[] numb2 = new int[2];
+        System.out.println(Arrays.toString(numb2));
+        System.out.println("При копировании в numb2 передается ссылка на новый массив длинной listClass.numbers.length");
+        numb2 = Arrays.copyOf(listClass.numbers, listClass.numbers.length);
+        System.out.println("Скопировали числа в новый массив "+Arrays.toString(numb2));
+        System.out.println("---");
+        // Arrays.deepEquals() и Arrays.deepToString() для двумерных массивов
+        System.out.print("Теперь сравниваем массивы. Результат ");
+        System.out.println(Arrays.equals(listClass.numbers, numb2));
+        System.out.println("---");
+        System.out.print("Новый массив nubm3 длиной 3 элемента ");
+        int[] numb3 = new int[3];
+        System.out.println(Arrays.toString(numb3));
+        System.out.println("Скопировали 4 числа в новый массив");
+        numb3 = Arrays.copyOf(listClass.numbers, 4);
+        System.out.println(Arrays.toString(numb3));
+        System.out.println("---");
+        System.out.println("Копируем 4 елемента начиная со второго. Массивы нумеруются с нуля.");
+        int[] numb4 = new int [0];
+        numb4 = Arrays.copyOfRange(listClass.numbers, 2, 6);
+        System.out.println(Arrays.toString(numb4));
+
+    }
+}
+
+class Cat extends Cat_task2{
+    private String name;
+    Cat(String name){
+        this.name = name;
+    }
+    public String getname(){
+        return this.name;
+    }
+}
+
+class Lev7Lec10Task3 implements Lecture{
+    @Override
+    public String info() {
+        return "Примеры с ArrayList";
+    }
+    @Override
+    public void run() {
+        Cat[] cats_arr = new Cat[2];
+        cats_arr[0] = new Cat("Мурзик");
+        cats_arr[1] = new Cat("Томас");
+        ListClass listClass = new ListClass();
+        ArrayList<Cat> cats = new ArrayList<Cat>();
+        cats.add(cats_arr[0]);
+        cats.add(cats_arr[1]);
+        cats.add(new Cat("Бегемот"));
+        System.out.print("Вывод индекса по ссылке на объект. Индекс: ");
+        System.out.println(cats.indexOf(cats_arr[0])); // мурзик
+        System.out.print("Имя второго кота: ");
+        System.out.println(cats.get(2).getname());
+        System.out.print(cats.toString()+ Cat.cats.toString());
+        
+
+
+    }
+}
+
 public class Level7 {
     public static void main(String[] args) throws IOException{
         //Lecture lecture = new Lev7Lec5();
@@ -222,7 +314,7 @@ public class Level7 {
         //ListClass listClass = new ListClass();
         //listClass.lectures[0].run();
 
-        Lecture jobs = new Jobs(new ListClass());
+        Lecture jobs = new Jobs(new Lev7Lec10Task3());
 
         //Lecture jobs = new Jobs(new Lev7Lec6Task4(), new Lev7Lec6Task2(), new Lev7Lec6Task3());
         //jobs.run();

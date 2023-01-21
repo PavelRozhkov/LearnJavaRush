@@ -6,7 +6,7 @@ class Lev6Lec3_6 extends Lecture6 {
     //статические переменные увеличиваются в конструкторе на 1, метод finalize
     static int createdInstance, destroyedInstance;
     Lev6Lec3_6(){
-        System.out.println("Сработал конструктор "+this.getClass());
+        //System.out.println("Сработал конструктор "+this.getClass());
         // увеличиваем на 1
         // https://javarush.com/groups/posts/operatory-java-logicheskie-arifmeticheskie-pobitovye#Какие-бывают-операторы-в-Java
         createdInstance += 1;
