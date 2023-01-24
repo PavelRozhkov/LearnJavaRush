@@ -273,6 +273,13 @@ class Cat extends Cat_task2{
     public String getname(){
         return this.name;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + "\'" +
+                "}";
+    }
 }
 
 class Lev7Lec10Task3 implements Lecture{
@@ -291,13 +298,42 @@ class Lev7Lec10Task3 implements Lecture{
         cats.add(cats_arr[1]);
         cats.add(new Cat("Бегемот"));
         System.out.print("Вывод индекса по ссылке на объект. Индекс: ");
-        System.out.println(cats.indexOf(cats_arr[0])); // мурзик
-        System.out.print("Имя второго кота: ");
+        System.out.println(cats_arr[0].getname()+" "+cats.indexOf(cats_arr[0])); // мурзик
+        System.out.print("Имя третьего кота (поиск по индексу 2): ");
         System.out.println(cats.get(2).getname());
-        System.out.print(cats.toString()+ Cat.cats.toString());
-        
+        System.out.println("Два Array lista "+cats.toString()+ Cat.cats.toString());
+        System.out.println("Содержит лист объект с индексом 0? "+cats.contains(cats_arr[0]));
+        // вставка объектов
+        // add(int index, Cat element) добавляет
+        // set(int index, Cat element) затирает старое значение
+        // clear() очистка листа
+        // Arrays.asList(<массив>) преобразование массива лист
+        // <лист>.toArray(new Cat[0]) предразование листа в массив, параметром передали пустой массив так увелиена производительность
+        // <лист>.size() - размер листа
+    }
+}
 
+class Lev7Lec12Task1 implements Lecture{
+    @Override
+    public String info() {
+        return "Заполнить ArrayList числами, вывести чиста в обратном порядке";
+    }
 
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        listClass.list.clear();
+        for (Integer nom:listClass.numbers) {
+            listClass.list.add(nom);
+        }
+        System.out.println(listClass.list.toString());
+        for (int i=listClass.list.size()-1;i>=0;i--){
+            System.out.print (listClass.list.get(i)+", ");
+        }
+        System.out.println();
+        List<Integer> stooges = Arrays.asList(1, 2, 3);
+        System.out.println("Integer to List: "+stooges);
     }
 }
 
@@ -314,7 +350,7 @@ public class Level7 {
         //ListClass listClass = new ListClass();
         //listClass.lectures[0].run();
 
-        Lecture jobs = new Jobs(new Lev7Lec10Task3());
+        Lecture jobs = new Jobs(new Lev7Lec12Task1());
 
         //Lecture jobs = new Jobs(new Lev7Lec6Task4(), new Lev7Lec6Task2(), new Lev7Lec6Task3());
         //jobs.run();
