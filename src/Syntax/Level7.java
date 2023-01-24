@@ -313,6 +313,34 @@ class Lev7Lec10Task3 implements Lecture{
     }
 }
 
+class Lev7Lec10Task4 implements Lecture{
+    @Override
+    public String info() {
+        return "Удаление элемента из списка ArrayList";
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        System.out.println(listClass.list.toString());
+        listClass.list.remove(1);
+        System.out.print("Удалили елемент 2: ");
+        System.out.println(listClass.list.toString());
+        listClass.list.clear();
+        Cat pushok = new Cat("Пушок");
+        listClass.list.add(pushok);
+        Cat kabanchik = new Cat("Кабанчик");
+        listClass.list.add(kabanchik);
+        Cat alisa = new Cat("Алиса");
+        listClass.list.add(alisa);
+        System.out.println(listClass.list.toString());
+        System.out.print("Убираем кота Пушок по ссылке на объект ");
+        listClass.list.remove(pushok);
+        System.out.println(listClass.list.toString());
+    }
+}
+
 class Lev7Lec12Task1 implements Lecture{
     @Override
     public String info() {
@@ -350,7 +378,7 @@ public class Level7 {
         //ListClass listClass = new ListClass();
         //listClass.lectures[0].run();
 
-        Lecture jobs = new Jobs(new Lev7Lec12Task1());
+        Lecture jobs = new Jobs(new Lev7Lec10Task4());
 
         //Lecture jobs = new Jobs(new Lev7Lec6Task4(), new Lev7Lec6Task2(), new Lev7Lec6Task3());
         //jobs.run();
