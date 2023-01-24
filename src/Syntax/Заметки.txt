@@ -1,3 +1,7 @@
+Вызов маина другого пакета
+https://www.javatpoint.com/how-to-convert-string-to-string-array-in-java
+Level7.main(("1 2").split(" "));
+
 Подстрока
 https://dev-gang.ru/article/java-kak-proverit-soderzhit-li-stroka-podstroku-0c4hoa1j3h/
 
