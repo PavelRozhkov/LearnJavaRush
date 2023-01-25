@@ -137,7 +137,6 @@ class ListClass extends Lev7Lec6Task1{
         array2[7] = "Олеся Остапенко, 3 января";
         array2[8] = "Костя Гурко, 19 октября";
         array2[9] = "Сережа Наумов, 3 мая";
-        numbers[0] = numbers[0];
 
         lectures[0] = new Lev7Lec6Task4();
     }
@@ -337,7 +336,19 @@ class Lev7Lec10Task4 implements Lecture{
         System.out.println(listClass.list.toString());
         System.out.print("Убираем кота Пушок по ссылке на объект ");
         listClass.list.remove(pushok);
+        listClass.list.add(1, new Cat("Анфиса"));
         System.out.println(listClass.list.toString());
+
+        System.out.println("Удаляем кота Анфиса через итератор:");
+        Iterator<Cat> iterator = listClass.list.iterator();
+        Cat cat;
+        while (iterator.hasNext()) {
+            cat = iterator.next();
+            if (cat.getname().equals("Анфиса")){iterator.remove();}
+            System.out.println(cat.toString());
+        }
+        System.out.println(listClass.list);
+
     }
 }
 
@@ -365,6 +376,77 @@ class Lev7Lec12Task1 implements Lecture{
     }
 }
 
+class Lev7Lec12Task2 implements Lecture{
+    @Override
+    public String info() {
+        return "Перестановка первых трех строк в конец списка";
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        System.out.println(listClass.list.toString());
+        for (int i=0; i<=2; i++){
+            listClass.list.add(listClass.list.get(i));
+        }
+
+        Iterator<String> iterator = listClass.list.iterator();
+        int i=-1;
+        while (iterator.hasNext()){
+            iterator.next();
+            iterator.remove();
+            i++;
+            if (i==2) {break;};
+        }
+        System.out.println(listClass.list.toString());
+        }
+    }
+
+class Lev7Lec12Task3 implements Lecture{
+    @Override
+    public String info() {
+        return "Найти минимум и максимум в массиве.";
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        int min = listClass.numbers[0], max=listClass.numbers[0];
+        System.out.println( Arrays.toString(listClass.numbers) );
+        for (int el:listClass.numbers) {
+            if (min > el){min=el;}
+            if (max<el){max=el;}
+        }
+        System.out.println("min="+min+" max="+max);
+    }
+}
+
+class Lev7Lec12Task4 implements Lecture {
+    @Override
+    public String info() {
+        return "Вывод списка на экан с задержкой.";
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        try {
+            go();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    private void go()throws InterruptedException{
+        ListClass listClass = new ListClass();
+        for (String el:listClass.spisok) {
+            System.out.print(el+" ");
+            Thread.sleep(1000);
+        }
+    }
+}
+
 public class Level7 {
     public static void main(String[] args) throws IOException{
         //Lecture lecture = new Lev7Lec5();
@@ -378,7 +460,7 @@ public class Level7 {
         //ListClass listClass = new ListClass();
         //listClass.lectures[0].run();
 
-        Lecture jobs = new Jobs(new Lev7Lec10Task4());
+        Lecture jobs = new Jobs(new Lev7Lec12Task4());
 
         //Lecture jobs = new Jobs(new Lev7Lec6Task4(), new Lev7Lec6Task2(), new Lev7Lec6Task3());
         //jobs.run();

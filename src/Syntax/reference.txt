@@ -1,0 +1,584 @@
+(1) Java Syntax
+Level7 Массивы и списки: Array, ArrayList, знакомство с Generics
++ https://javarush.com/quests/lectures/questsyntax.level07.lecture10
+	Сборник итоговых заданий для программистов
+https://javarush.com/quests/lectures/questsyntax.level07.lecture12
+
+Level8 Коллекции: LinkedList, HashSet, HashMap. Date - дата.
+https://javarush.com/quests/lectures/questsyntax.level08.lecture00
+https://javarush.com/quests/lectures/questsyntax.level08.lecture01
+https://javarush.com/quests/lectures/questsyntax.level08.lecture02
+https://javarush.com/quests/lectures/questsyntax.level08.lecture03
+https://javarush.com/quests/lectures/questsyntax.level08.lecture04
+https://javarush.com/quests/lectures/questsyntax.level08.lecture05
+https://javarush.com/quests/lectures/questsyntax.level08.lecture06
+https://javarush.com/quests/lectures/questsyntax.level08.lecture07
+https://javarush.com/quests/lectures/questsyntax.level08.lecture08
+https://javarush.com/quests/lectures/questsyntax.level08.lecture09
+https://javarush.com/quests/lectures/questsyntax.level08.lecture10
+https://javarush.com/quests/lectures/questsyntax.level08.lecture11
+
+Level9 Знакомство с исключениями: try, catch, throws, multy-catch.
+https://javarush.com/quests/lectures/questsyntax.level09.lecture00
+https://javarush.com/quests/lectures/questsyntax.level09.lecture01
+https://javarush.com/quests/lectures/questsyntax.level09.lecture02
+https://javarush.com/quests/lectures/questsyntax.level09.lecture03
+https://javarush.com/quests/lectures/questsyntax.level09.lecture04
+https://javarush.com/quests/lectures/questsyntax.level09.lecture05
+https://javarush.com/quests/lectures/questsyntax.level09.lecture06
+https://javarush.com/quests/lectures/questsyntax.level09.lecture07
+https://javarush.com/quests/lectures/questsyntax.level09.lecture08
+https://javarush.com/quests/lectures/questsyntax.level09.lecture09
+https://javarush.com/quests/lectures/questsyntax.level09.lecture10
+https://javarush.com/quests/lectures/questsyntax.level09.lecture11
+
+Level10 Приведение примитивных типов: расширение и сужение.
+https://javarush.com/quests/lectures/questsyntax.level10.lecture00
+https://javarush.com/quests/lectures/questsyntax.level10.lecture01
+https://javarush.com/quests/lectures/questsyntax.level10.lecture02
+https://javarush.com/quests/lectures/questsyntax.level10.lecture03
+https://javarush.com/quests/lectures/questsyntax.level10.lecture04
+https://javarush.com/quests/lectures/questsyntax.level10.lecture05
+https://javarush.com/quests/lectures/questsyntax.level10.lecture06
+https://javarush.com/quests/lectures/questsyntax.level10.lecture07
+https://javarush.com/quests/lectures/questsyntax.level10.lecture08
+https://javarush.com/quests/lectures/questsyntax.level10.lecture09
+https://javarush.com/quests/lectures/questsyntax.level10.lecture10
+https://javarush.com/quests/lectures/questsyntax.level10.lecture11
+
+(2) Java Core
+Level1 Основы ООП: основные принципы, наследование, инкапсуляция.
+https://javarush.com/quests/lectures/questcore.level01.lecture00
+https://javarush.com/quests/lectures/questcore.level01.lecture01
+https://javarush.com/quests/lectures/questcore.level01.lecture02
+https://javarush.com/quests/lectures/questcore.level01.lecture03
+https://javarush.com/quests/lectures/questcore.level01.lecture04
+https://javarush.com/quests/lectures/questcore.level01.lecture05
+https://javarush.com/quests/lectures/questcore.level01.lecture06
+https://javarush.com/quests/lectures/questcore.level01.lecture07
+https://javarush.com/quests/lectures/questcore.level01.lecture08
+https://javarush.com/quests/lectures/questcore.level01.lecture09
+https://javarush.com/quests/lectures/questcore.level01.lecture10
+https://javarush.com/quests/lectures/questcore.level01.lecture11
+
+Level2 Основы ООП: перегрузка, полиморфизм, абстракция, интерфейсы.
+https://javarush.com/quests/lectures/questcore.level02.lecture00
+https://javarush.com/quests/lectures/questcore.level02.lecture01
+https://javarush.com/quests/lectures/questcore.level02.lecture02
+https://javarush.com/quests/lectures/questcore.level02.lecture03
+https://javarush.com/quests/lectures/questcore.level02.lecture04
+https://javarush.com/quests/lectures/questcore.level02.lecture05
+https://javarush.com/quests/lectures/questcore.level02.lecture06
+https://javarush.com/quests/lectures/questcore.level02.lecture07
+https://javarush.com/quests/lectures/questcore.level02.lecture08
+https://javarush.com/quests/lectures/questcore.level02.lecture09
+https://javarush.com/quests/lectures/questcore.level02.lecture10
+https://javarush.com/quests/lectures/questcore.level02.lecture11
+https://javarush.com/quests/lectures/questcore.level02.lecture12
+
+Level3 Интерфейсы: сравнение с абстрактным классом, множественное наследование.
+https://javarush.com/quests/lectures/questcore.level03.lecture00
+https://javarush.com/quests/lectures/questcore.level03.lecture01
+https://javarush.com/quests/lectures/questcore.level03.lecture02
+https://javarush.com/quests/lectures/questcore.level03.lecture03
+https://javarush.com/quests/lectures/questcore.level03.lecture04
+https://javarush.com/quests/lectures/questcore.level03.lecture05
+https://javarush.com/quests/lectures/questcore.level03.lecture06
+https://javarush.com/quests/lectures/questcore.level03.lecture07
+https://javarush.com/quests/lectures/questcore.level03.lecture08
+https://javarush.com/quests/lectures/questcore.level03.lecture09
+https://javarush.com/quests/lectures/questcore.level03.lecture10
+https://javarush.com/quests/lectures/questcore.level03.lecture11
+
+Level4 Приведение типов, instanceof. Большая задача на интерфейсы.
+https://javarush.com/quests/lectures/questcore.level04.lecture00
+https://javarush.com/quests/lectures/questcore.level04.lecture01
+https://javarush.com/quests/lectures/questcore.level04.lecture02
+https://javarush.com/quests/lectures/questcore.level04.lecture03
+https://javarush.com/quests/lectures/questcore.level04.lecture04
+https://javarush.com/quests/lectures/questcore.level04.lecture05
+https://javarush.com/quests/lectures/questcore.level04.lecture06
+https://javarush.com/quests/lectures/questcore.level04.lecture07
+https://javarush.com/quests/lectures/questcore.level04.lecture08
+
+Level5 Перегрузка методов, особенность вызова конструкторов
+https://javarush.com/quests/lectures/questcore.level05.lecture00
+https://javarush.com/quests/lectures/questcore.level05.lecture01
+https://javarush.com/quests/lectures/questcore.level05.lecture02
+https://javarush.com/quests/lectures/questcore.level05.lecture03
+https://javarush.com/quests/lectures/questcore.level05.lecture04
+https://javarush.com/quests/lectures/questcore.level05.lecture05
+https://javarush.com/quests/lectures/questcore.level05.lecture06
+https://javarush.com/quests/lectures/questcore.level05.lecture07
+https://javarush.com/quests/lectures/questcore.level05.lecture08
+https://javarush.com/quests/lectures/questcore.level05.lecture09
+https://javarush.com/quests/lectures/questcore.level05.lecture10
+https://javarush.com/quests/lectures/questcore.level05.lecture11
+https://javarush.com/quests/lectures/questcore.level05.lecture12
+
+Level6 Знакомство с нитями: Thread, Runnable, start, join, interrupt, sleep
+https://javarush.com/quests/lectures/questcore.level06.lecture00
+https://javarush.com/quests/lectures/questcore.level06.lecture01
+https://javarush.com/quests/lectures/questcore.level06.lecture02
+https://javarush.com/quests/lectures/questcore.level06.lecture03
+https://javarush.com/quests/lectures/questcore.level06.lecture04
+https://javarush.com/quests/lectures/questcore.level06.lecture05
+https://javarush.com/quests/lectures/questcore.level06.lecture06
+https://javarush.com/quests/lectures/questcore.level06.lecture07
+https://javarush.com/quests/lectures/questcore.level06.lecture08
+https://javarush.com/quests/lectures/questcore.level06.lecture09
+https://javarush.com/quests/lectures/questcore.level06.lecture10
+https://javarush.com/quests/lectures/questcore.level06.lecture11
+https://javarush.com/quests/lectures/questcore.level06.lecture12
+https://javarush.com/quests/lectures/questcore.level06.lecture13
+
+Level7 Знакомство с нитями: synchronized, volatile, yield
+https://javarush.com/quests/lectures/questcore.level07.lecture00
+https://javarush.com/quests/lectures/questcore.level07.lecture01
+https://javarush.com/quests/lectures/questcore.level07.lecture02
+https://javarush.com/quests/lectures/questcore.level07.lecture03
+https://javarush.com/quests/lectures/questcore.level07.lecture04
+https://javarush.com/quests/lectures/questcore.level07.lecture05
+https://javarush.com/quests/lectures/questcore.level07.lecture06
+https://javarush.com/quests/lectures/questcore.level07.lecture07
+https://javarush.com/quests/lectures/questcore.level07.lecture08
+https://javarush.com/quests/lectures/questcore.level07.lecture09
+https://javarush.com/quests/lectures/questcore.level07.lecture10
+
+Level8 Знакомство с потоками: InputStream/OutputStream, FileInputStream, FileOutputStream
+https://javarush.com/quests/lectures/questcore.level08.lecture00
+https://javarush.com/quests/lectures/questcore.level08.lecture01
+https://javarush.com/quests/lectures/questcore.level08.lecture02
+https://javarush.com/quests/lectures/questcore.level08.lecture03
+https://javarush.com/quests/lectures/questcore.level08.lecture04
+https://javarush.com/quests/lectures/questcore.level08.lecture05
+https://javarush.com/quests/lectures/questcore.level08.lecture06
+https://javarush.com/quests/lectures/questcore.level08.lecture07
+https://javarush.com/quests/lectures/questcore.level08.lecture08
+https://javarush.com/quests/lectures/questcore.level08.lecture09
+https://javarush.com/quests/lectures/questcore.level08.lecture10
+https://javarush.com/quests/lectures/questcore.level08.lecture11
+
+Level9 Знакомство с потоками: Reader/Writer, FileReader/FileWriter
+https://javarush.com/quests/lectures/questcore.level09.lecture00
+https://javarush.com/quests/lectures/questcore.level09.lecture01
+https://javarush.com/quests/lectures/questcore.level09.lecture02
+https://javarush.com/quests/lectures/questcore.level09.lecture03
+https://javarush.com/quests/lectures/questcore.level09.lecture04
+https://javarush.com/quests/lectures/questcore.level09.lecture05
+https://javarush.com/quests/lectures/questcore.level09.lecture06
+https://javarush.com/quests/lectures/questcore.level09.lecture07
+https://javarush.com/quests/lectures/questcore.level09.lecture08
+https://javarush.com/quests/lectures/questcore.level09.lecture09
+https://javarush.com/quests/lectures/questcore.level09.lecture10
+https://javarush.com/quests/lectures/questcore.level09.lecture11
+
+Level10 Сериализация
+https://javarush.com/quests/lectures/questcore.level10.lecture00
+https://javarush.com/quests/lectures/questcore.level10.lecture01
+https://javarush.com/quests/lectures/questcore.level10.lecture02
+https://javarush.com/quests/lectures/questcore.level10.lecture03
+https://javarush.com/quests/lectures/questcore.level10.lecture04
+https://javarush.com/quests/lectures/questcore.level10.lecture05
+https://javarush.com/quests/lectures/questcore.level10.lecture06
+https://javarush.com/quests/lectures/questcore.level10.lecture07
+https://javarush.com/quests/lectures/questcore.level10.lecture08
+https://javarush.com/quests/lectures/questcore.level10.lecture09
+https://javarush.com/quests/lectures/questcore.level10.lecture10
+
+(3) Java Multithreading
+Уровень 1 Устройство объекта Object: equals, hashCode, clone, wait, notify, toString()
+https://javarush.com/quests/lectures/questmultithreading.level01.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level01.lecture16
+
+Уровень 2 String: mutable, immutable, format, StringTokenizer, StringBuilder, StringBuffer
+https://javarush.com/quests/lectures/questmultithreading.level02.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level02.lecture18
+
+Уровень 3 Внутренние классы, примеры: Map.Entry
+https://javarush.com/quests/lectures/questmultithreading.level03.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level03.lecture13
+
+Уровень 4 Внутренние классы, особенности реализации
+https://javarush.com/quests/lectures/questmultithreading.level04.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level04.lecture14
+
+Уровень 5 Создание и остановка нитей: start, interrupt, sleep, yield.
+https://javarush.com/quests/lectures/questmultithreading.level05.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level05.lecture16
+
+Уровень 6 Совместный доступ к монопольным данным: synchronized, volatile
+https://javarush.com/quests/lectures/questmultithreading.level06.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level06.lecture15
+
+Уровень 7 DeadLock. Wait, notify, notifyAll
+https://javarush.com/quests/lectures/questmultithreading.level07.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level07.lecture15
+
+Уровень 8 ThreadGroup, ThreadLocal, Executor, ExecutorService, Callable. Опыт работы с Jsoup
+https://javarush.com/quests/lectures/questmultithreading.level08.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level08.lecture15
+
+Уровень 9 Autoboxing, особенности реализации
+https://javarush.com/quests/lectures/questmultithreading.level09.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level09.lecture15
+
+Уровень 10 Операторы: числовые, логические и бинарные. Опыт работы с Swing
+https://javarush.com/quests/lectures/questmultithreading.level10.lecture00
+https://javarush.com/quests/lectures/questmultithreading.level10.lecture15
+
+
+(4) Java Collections
+Level1 Работа с файлами и архивами
+https://javarush.com/quests/lectures/questcollections.level01.lecture00
+https://javarush.com/quests/lectures/questcollections.level01.lecture01
+https://javarush.com/quests/lectures/questcollections.level01.lecture02
+https://javarush.com/quests/lectures/questcollections.level01.lecture03
+https://javarush.com/quests/lectures/questcollections.level01.lecture04
+https://javarush.com/quests/lectures/questcollections.level01.lecture05
+https://javarush.com/quests/lectures/questcollections.level01.lecture06
+https://javarush.com/quests/lectures/questcollections.level01.lecture07
+https://javarush.com/quests/lectures/questcollections.level01.lecture08
+https://javarush.com/quests/lectures/questcollections.level01.lecture09
+https://javarush.com/quests/lectures/questcollections.level01.lecture10
+https://javarush.com/quests/lectures/questcollections.level01.lecture11
+https://javarush.com/quests/lectures/questcollections.level01.lecture12
+https://javarush.com/quests/lectures/questcollections.level01.lecture13
+https://javarush.com/quests/lectures/questcollections.level01.lecture14
+https://javarush.com/quests/lectures/questcollections.level01.lecture15
+
+Level2 RMI и динамический прокси. Опыт работы с Swing
+https://javarush.com/quests/lectures/questcollections.level02.lecture00
+https://javarush.com/quests/lectures/questcollections.level02.lecture01
+https://javarush.com/quests/lectures/questcollections.level02.lecture02
+https://javarush.com/quests/lectures/questcollections.level02.lecture03
+https://javarush.com/quests/lectures/questcollections.level02.lecture04
+https://javarush.com/quests/lectures/questcollections.level02.lecture05
+https://javarush.com/quests/lectures/questcollections.level02.lecture06
+https://javarush.com/quests/lectures/questcollections.level02.lecture07
+https://javarush.com/quests/lectures/questcollections.level02.lecture08
+https://javarush.com/quests/lectures/questcollections.level02.lecture09
+https://javarush.com/quests/lectures/questcollections.level02.lecture10
+https://javarush.com/quests/lectures/questcollections.level02.lecture11
+https://javarush.com/quests/lectures/questcollections.level02.lecture12
+https://javarush.com/quests/lectures/questcollections.level02.lecture13
+https://javarush.com/quests/lectures/questcollections.level02.lecture14
+https://javarush.com/quests/lectures/questcollections.level02.lecture15
+
+Level3 JSON, JavaScript. Опыт работы с Guava, Apache Commons Collections, JUnit
+https://javarush.com/quests/lectures/questcollections.level03.lecture00
+https://javarush.com/quests/lectures/questcollections.level03.lecture01
+https://javarush.com/quests/lectures/questcollections.level03.lecture02
+https://javarush.com/quests/lectures/questcollections.level03.lecture03
+https://javarush.com/quests/lectures/questcollections.level03.lecture04
+https://javarush.com/quests/lectures/questcollections.level03.lecture05
+https://javarush.com/quests/lectures/questcollections.level03.lecture06
+https://javarush.com/quests/lectures/questcollections.level03.lecture07
+https://javarush.com/quests/lectures/questcollections.level03.lecture08
+https://javarush.com/quests/lectures/questcollections.level03.lecture09
+https://javarush.com/quests/lectures/questcollections.level03.lecture10
+https://javarush.com/quests/lectures/questcollections.level03.lecture11
+https://javarush.com/quests/lectures/questcollections.level03.lecture12
+https://javarush.com/quests/lectures/questcollections.level03.lecture13
+https://javarush.com/quests/lectures/questcollections.level03.lecture14
+https://javarush.com/quests/lectures/questcollections.level03.lecture15
+
+Level4 Рекурсия. Сборка мусора и типы ссылок в Java. Логгирование
+https://javarush.com/quests/lectures/questcollections.level04.lecture00
+https://javarush.com/quests/lectures/questcollections.level04.lecture01
+https://javarush.com/quests/lectures/questcollections.level04.lecture02
+https://javarush.com/quests/lectures/questcollections.level04.lecture03
+https://javarush.com/quests/lectures/questcollections.level04.lecture04
+https://javarush.com/quests/lectures/questcollections.level04.lecture05
+https://javarush.com/quests/lectures/questcollections.level04.lecture06
+https://javarush.com/quests/lectures/questcollections.level04.lecture07
+https://javarush.com/quests/lectures/questcollections.level04.lecture08
+https://javarush.com/quests/lectures/questcollections.level04.lecture09
+https://javarush.com/quests/lectures/questcollections.level04.lecture10
+https://javarush.com/quests/lectures/questcollections.level04.lecture11
+
+Level5 Системы контроля версий: Git и SVN. Generics
+https://javarush.com/quests/lectures/questcollections.level05.lecture00
+https://javarush.com/quests/lectures/questcollections.level05.lecture01
+https://javarush.com/quests/lectures/questcollections.level05.lecture02
+https://javarush.com/quests/lectures/questcollections.level05.lecture03
+https://javarush.com/quests/lectures/questcollections.level05.lecture04
+https://javarush.com/quests/lectures/questcollections.level05.lecture05
+https://javarush.com/quests/lectures/questcollections.level05.lecture06
+https://javarush.com/quests/lectures/questcollections.level05.lecture07
+https://javarush.com/quests/lectures/questcollections.level05.lecture08
+https://javarush.com/quests/lectures/questcollections.level05.lecture09
+https://javarush.com/quests/lectures/questcollections.level05.lecture10
+https://javarush.com/quests/lectures/questcollections.level05.lecture11
+https://javarush.com/quests/lectures/questcollections.level05.lecture12
+https://javarush.com/quests/lectures/questcollections.level05.lecture13
+https://javarush.com/quests/lectures/questcollections.level05.lecture14
+https://javarush.com/quests/lectures/questcollections.level05.lecture15
+
+Level6 Основные паттерны для создания веб приложений. Углубленное изучение коллекций
+https://javarush.com/quests/lectures/questcollections.level06.lecture00
+https://javarush.com/quests/lectures/questcollections.level06.lecture01
+https://javarush.com/quests/lectures/questcollections.level06.lecture02
+https://javarush.com/quests/lectures/questcollections.level06.lecture03
+https://javarush.com/quests/lectures/questcollections.level06.lecture04
+https://javarush.com/quests/lectures/questcollections.level06.lecture05
+https://javarush.com/quests/lectures/questcollections.level06.lecture06
+https://javarush.com/quests/lectures/questcollections.level06.lecture07
+https://javarush.com/quests/lectures/questcollections.level06.lecture08
+https://javarush.com/quests/lectures/questcollections.level06.lecture09
+https://javarush.com/quests/lectures/questcollections.level06.lecture10
+https://javarush.com/quests/lectures/questcollections.level06.lecture11
+https://javarush.com/quests/lectures/questcollections.level06.lecture12
+https://javarush.com/quests/lectures/questcollections.level06.lecture13
+https://javarush.com/quests/lectures/questcollections.level06.lecture14
+https://javarush.com/quests/lectures/questcollections.level06.lecture15
+
+Level7 Паттерны проектирования. Утилитные классы Arrays. Collections
+https://javarush.com/quests/lectures/questcollections.level07.lecture00
+https://javarush.com/quests/lectures/questcollections.level07.lecture01
+https://javarush.com/quests/lectures/questcollections.level07.lecture02
+https://javarush.com/quests/lectures/questcollections.level07.lecture03
+https://javarush.com/quests/lectures/questcollections.level07.lecture04
+https://javarush.com/quests/lectures/questcollections.level07.lecture05
+https://javarush.com/quests/lectures/questcollections.level07.lecture06
+https://javarush.com/quests/lectures/questcollections.level07.lecture07
+https://javarush.com/quests/lectures/questcollections.level07.lecture08
+https://javarush.com/quests/lectures/questcollections.level07.lecture09
+https://javarush.com/quests/lectures/questcollections.level07.lecture10
+https://javarush.com/quests/lectures/questcollections.level07.lecture11
+https://javarush.com/quests/lectures/questcollections.level07.lecture12
+https://javarush.com/quests/lectures/questcollections.level07.lecture13
+https://javarush.com/quests/lectures/questcollections.level07.lecture14
+https://javarush.com/quests/lectures/questcollections.level07.lecture15
+
+Level8 Методологии разработки. Аннотации в Java. Иерархия исключений
+https://javarush.com/quests/lectures/questcollections.level08.lecture00
+https://javarush.com/quests/lectures/questcollections.level08.lecture01
+https://javarush.com/quests/lectures/questcollections.level08.lecture02
+https://javarush.com/quests/lectures/questcollections.level08.lecture03
+https://javarush.com/quests/lectures/questcollections.level08.lecture04
+https://javarush.com/quests/lectures/questcollections.level08.lecture05
+https://javarush.com/quests/lectures/questcollections.level08.lecture06
+https://javarush.com/quests/lectures/questcollections.level08.lecture07
+https://javarush.com/quests/lectures/questcollections.level08.lecture08
+https://javarush.com/quests/lectures/questcollections.level08.lecture09
+https://javarush.com/quests/lectures/questcollections.level08.lecture10
+https://javarush.com/quests/lectures/questcollections.level08.lecture11
+https://javarush.com/quests/lectures/questcollections.level08.lecture12
+https://javarush.com/quests/lectures/questcollections.level08.lecture13
+https://javarush.com/quests/lectures/questcollections.level08.lecture14
+https://javarush.com/quests/lectures/questcollections.level08.lecture15
+
+Level9 Создаем первое веб приложение. Работа с Tomcat и Idea
+https://javarush.com/quests/lectures/questcollections.level09.lecture00
+https://javarush.com/quests/lectures/questcollections.level09.lecture01
+https://javarush.com/quests/lectures/questcollections.level09.lecture02
+https://javarush.com/quests/lectures/questcollections.level09.lecture03
+https://javarush.com/quests/lectures/questcollections.level09.lecture04
+https://javarush.com/quests/lectures/questcollections.level09.lecture05
+https://javarush.com/quests/lectures/questcollections.level09.lecture06
+https://javarush.com/quests/lectures/questcollections.level09.lecture07
+https://javarush.com/quests/lectures/questcollections.level09.lecture08
+https://javarush.com/quests/lectures/questcollections.level09.lecture09
+https://javarush.com/quests/lectures/questcollections.level09.lecture10
+https://javarush.com/quests/lectures/questcollections.level09.lecture11
+https://javarush.com/quests/lectures/questcollections.level09.lecture12
+https://javarush.com/quests/lectures/questcollections.level09.lecture13
+https://javarush.com/quests/lectures/questcollections.level09.lecture14
+https://javarush.com/quests/lectures/questcollections.level09.lecture15
+
+Level10 URI, URL. REST сервисы. Создаем свое клиент-серверное приложение.
+https://javarush.com/quests/lectures/questcollections.level10.lecture00
+https://javarush.com/quests/lectures/questcollections.level10.lecture01
+https://javarush.com/quests/lectures/questcollections.level10.lecture02
+https://javarush.com/quests/lectures/questcollections.level10.lecture03
+https://javarush.com/quests/lectures/questcollections.level10.lecture04
+https://javarush.com/quests/lectures/questcollections.level10.lecture05
+https://javarush.com/quests/lectures/questcollections.level10.lecture06
+https://javarush.com/quests/lectures/questcollections.level10.lecture07
+https://javarush.com/quests/lectures/questcollections.level10.lecture08
+https://javarush.com/quests/lectures/questcollections.level10.lecture09
+https://javarush.com/quests/lectures/questcollections.level10.lecture10
+https://javarush.com/quests/lectures/questcollections.level10.lecture11
+https://javarush.com/quests/lectures/questcollections.level10.lecture12
+https://javarush.com/quests/lectures/questcollections.level10.lecture13
+https://javarush.com/quests/lectures/questcollections.level10.lecture14
+https://javarush.com/quests/lectures/questcollections.level10.lecture15
+
+Level11 Курс пройден!
+https://javarush.com/quests/lectures/questcollections.level11.lecture00
+
+(7) SQL & Hibernate
+Уровень 1 Базы данных и SQL
+https://javarush.com/quests/lectures/questhibernate.level01.lecture00
+https://javarush.com/quests/lectures/questhibernate.level01.lecture01
+https://javarush.com/quests/lectures/questhibernate.level01.lecture02
+...
+https://javarush.com/quests/lectures/questhibernate.level01.lecture04
+
+Уровень 2 Сложные SQL-запросы
+https://javarush.com/quests/lectures/questhibernate.level02.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level02.lecture05
+
+Уровень 3 SQL-запросы к нескольким таблицам
+https://javarush.com/quests/lectures/questhibernate.level03.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level03.lecture05
+
+Уровень 4 SQL-типы данных и SQL-функции
+https://javarush.com/quests/lectures/questhibernate.level04.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level04.lecture04
+
+Уровень 5 Установка MySQL и Workbench, бэкапы
+https://javarush.com/quests/lectures/questhibernate.level05.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level05.lecture08
+
+Уровень 6 Изменение данных в таблице: insert, update, delete, индексы
+https://javarush.com/quests/lectures/questhibernate.level06.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level06.lecture07
+
+Уровень 7 JDBC
+https://javarush.com/quests/lectures/questhibernate.level07.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level07.lecture06
+
+Уровень 8 JDBC на практике
+https://javarush.com/quests/lectures/questhibernate.level08.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level08.lecture06
+
+Уровень 9 ORM: аннотации, Entity, Hibernate
+https://javarush.com/quests/lectures/questhibernate.level11.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level11.lecture04
+
+Уровень 10 HQL, Запросы к базе данных
+https://javarush.com/quests/lectures/questhibernate.level10.lecture00
+...
+https://javarush.com/quests/lectures/questhibernate.level10.lecture05
+
+Уровень 11 Hibernate: состояние объекта, save, update, delete
+https://javarush.com/quests/lectures/questhibernate.level11.lecture00
+https://javarush.com/quests/lectures/questhibernate.level11.lecture04
+
+Уровень 12 Продвинутый маппинг типов данных
+https://javarush.com/quests/lectures/questhibernate.level12.lecture00
+https://javarush.com/quests/lectures/questhibernate.level12.lecture06
+
+Уровень 13 Маппинг коллекций
+https://javarush.com/quests/lectures/questhibernate.level13.lecture00
+https://javarush.com/quests/lectures/questhibernate.level13.lecture05
+
+Уровень 14 Кэширование и Lazy Loading
+https://javarush.com/quests/lectures/questhibernate.level14.lecture00
+https://javarush.com/quests/lectures/questhibernate.level14.lecture07
+
+Уровень 15 Сохранение иерархии классов
+https://javarush.com/quests/lectures/questhibernate.level15.lecture00
+https://javarush.com/quests/lectures/questhibernate.level15.lecture05
+
+Уровень 16 Продвинутая работа с Hibernate
+https://javarush.com/quests/lectures/questhibernate.level16.lecture00
+https://javarush.com/quests/lectures/questhibernate.level16.lecture06
+
+Уровень 17 Проектирование баз данных
+https://javarush.com/quests/lectures/questhibernate.level17.lecture00
+https://javarush.com/quests/lectures/questhibernate.level17.lecture07
+
+Уровень 18 Транзакции, ACID, CAD
+https://javarush.com/quests/lectures/questhibernate.level18.lecture00
+https://javarush.com/quests/lectures/questhibernate.level18.lecture07
+
+Уровень 19 Кластеры Баз Данных
+https://javarush.com/quests/lectures/questhibernate.level19.lecture00
+https://javarush.com/quests/lectures/questhibernate.level19.lecture06
+
+Уровень 20 Облачные Базы Данных
+https://javarush.com/quests/lectures/questhibernate.level20.lecture00
+https://javarush.com/quests/lectures/questhibernate.level20.lecture06
+
+(5) JSP & Servlets
+Уровень 1 Maven: фазы, плагины, зависимости и сборка
+https://javarush.com/quests/lectures/questservlets.level01.lecture00
+https://javarush.com/quests/lectures/questservlets.level01.lecture07
+
+Уровень 2 Maven, часть 2: Продвинутое использование Maven
+https://javarush.com/quests/lectures/questservlets.level02.lecture00
+https://javarush.com/quests/lectures/questservlets.level02.lecture05
+
+Уровень 3 JUnit 5
+https://javarush.com/quests/lectures/questservlets.level03.lecture00
+https://javarush.com/quests/lectures/questservlets.level03.lecture06
+
+Уровень 4 Mockito
+https://javarush.com/quests/lectures/questservlets.level04.lecture00
+https://javarush.com/quests/lectures/questservlets.level04.lecture05
+
+Уровень 5 Логирование
+https://javarush.com/quests/lectures/questservlets.level05.lecture00
+https://javarush.com/quests/lectures/questservlets.level05.lecture06
+
+Уровень 6 HTML + CSS
+https://javarush.com/quests/lectures/questservlets.level06.lecture00
+https://javarush.com/quests/lectures/questservlets.level06.lecture05
+
+Уровень 7 JavaScript + jQuery
+https://javarush.com/quests/lectures/questservlets.level07.lecture00
+https://javarush.com/quests/lectures/questservlets.level07.lecture08
+
+Уровень 8 Устройство сети
+https://javarush.com/quests/lectures/questservlets.level08.lecture00
+https://javarush.com/quests/lectures/questservlets.level08.lecture05
+
+Уровень 9 Протокол HTTP
+https://javarush.com/quests/lectures/questservlets.level09.lecture00
+https://javarush.com/quests/lectures/questservlets.level09.lecture08
+
+Уровень 10 HttpClient
+https://javarush.com/quests/lectures/questservlets.level09.lecture00
+https://javarush.com/quests/lectures/questservlets.level09.lecture08
+
+Уровень 11 Tomcat: установка, настройка, деплой, ресурсы
+https://javarush.com/quests/lectures/questservlets.level11.lecture00
+https://javarush.com/quests/lectures/questservlets.level11.lecture07
+
+Уровень 12 Сервлеты: doGet, doPost, session, request, response
+https://javarush.com/quests/lectures/questservlets.level12.lecture00
+https://javarush.com/quests/lectures/questservlets.level12.lecture05
+
+Уровень 13 JSP, JSTL
+https://javarush.com/quests/lectures/questservlets.level13.lecture00
+https://javarush.com/quests/lectures/questservlets.level13.lecture06
+
+Уровень 14 Архитектура ПО, клиент-серверная архитектура, MVC
+https://javarush.com/quests/lectures/questservlets.level14.lecture00
+https://javarush.com/quests/lectures/questservlets.level14.lecture09
+
+Уровень 15 Методологии разработки
+https://javarush.com/quests/lectures/questservlets.level15.lecture00
+https://javarush.com/quests/lectures/questservlets.level15.lecture06
+
+Уровень 16 Паттерны проектирования
+https://javarush.com/quests/lectures/questservlets.level16.lecture00
+https://javarush.com/quests/lectures/questservlets.level16.lecture03
+
+Уровень 17 Паттерны проектирования 2
+https://javarush.com/quests/lectures/questservlets.level17.lecture00
+https://javarush.com/quests/lectures/questservlets.level17.lecture03
+
+Уровень 18 Работа с памятью в Java
+https://javarush.com/quests/lectures/questservlets.level18.lecture00
+https://javarush.com/quests/lectures/questservlets.level18.lecture07
+
+Уровень 19 Concurrent
+https://javarush.com/quests/lectures/questservlets.level19.lecture00
+https://javarush.com/quests/lectures/questservlets.level19.lecture07
+
+Уровень 20 Apache Commons
+https://javarush.com/quests/lectures/questservlets.level20.lecture00
+https://javarush.com/quests/lectures/questservlets.level20.lecture05
+
