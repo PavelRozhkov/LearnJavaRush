@@ -24,7 +24,7 @@ public class Jobs implements Lecture{
         this.job3 = null;
         System.out.println(aClass.getName());
     }
-    Jobs(Lecture lecture){
+    public Jobs(Lecture lecture){
         this.job1 = null;
         this.job2 = null;
         this.job3 = null;

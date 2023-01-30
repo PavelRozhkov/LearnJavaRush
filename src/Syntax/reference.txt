@@ -1,6 +1,7 @@
 (1) Java Syntax
 Level7 Массивы и списки: Array, ArrayList, знакомство с Generics
 + https://javarush.com/quests/lectures/questsyntax.level07.lecture10
++ https://javarush.com/groups/posts/1935-udalenie-ehlementa-iz-spiska-arraylist
 	Сборник итоговых заданий для программистов
 https://javarush.com/quests/lectures/questsyntax.level07.lecture12
 
@@ -15,6 +16,11 @@ https://javarush.com/quests/lectures/questsyntax.level08.lecture06
 https://javarush.com/quests/lectures/questsyntax.level08.lecture07
 https://javarush.com/quests/lectures/questsyntax.level08.lecture08
 https://javarush.com/quests/lectures/questsyntax.level08.lecture09
+https://javarush.com/groups/posts/1936-rabota-arraylist-v-kartinkakh--
+https://javarush.com/groups/posts/1937-klass-collections
+https://javarush.com/groups/posts/1938-linkedlist
+https://javarush.com/groups/posts/1940-klass-hashmap-
+https://javarush.com/groups/posts/1941-kak-ne-poterjatjhsja-vo-vremeni--datetime-i-calendar
 https://javarush.com/quests/lectures/questsyntax.level08.lecture10
 https://javarush.com/quests/lectures/questsyntax.level08.lecture11
 

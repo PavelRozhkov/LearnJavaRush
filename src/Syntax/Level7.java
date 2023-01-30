@@ -1,10 +1,8 @@
 package Syntax;
 
-import javax.xml.transform.sax.SAXSource;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.*;
 
 // массивы https://javarush.com/quests/lectures/questsyntax.level07.lecture01
@@ -108,37 +106,13 @@ class Lev7Lec6Task1 implements Lecture{
         spisok.add("Констанция.");
         spisok.add("Ламборджини.");
         spisok.add("Луна.");
-        spisok.add("Луна2");}
+        spisok.add("Луна2");
+    }
+
     public void run(){
         System.out.println("Cоздаем список строк, добавляем 5 разных строк и выводим размер списка на экран.");
         System.out.println("Затем выводим содержимое списка на экран.");
         System.out.println(spisok.size()+": "+ spisok.toString());
-    }
-}
-
-class ListClass extends Lev7Lec6Task1{
-
-    List list;
-    String [] array, array2;
-    int [] numbers = {7, 12, 8, 4, 33, 79, 1, 16, 2, 46};
-    Lecture [] lectures = new Lecture[10];
-    ListClass(){
-        list = spisok;
-        Shooba somelec = new Shooba();
-        array = somelec.shooba;
-        array2 = new String[10];
-        array2[0] = "Лена Елисеева, 12 марта";
-        array2[1] = "Коля Романов, 18 мая";
-        array2[2] = "Вика Игнатова, 12 июля";
-        array2[3] = "Денис Козлов, 7 сентября";
-        array2[4] = "Максим Масленников, 9 ноября";
-        array2[5] = "Роман Баранов, 14 августа";
-        array2[6] = "Валерия Пяткина, 1 апреля";
-        array2[7] = "Олеся Остапенко, 3 января";
-        array2[8] = "Костя Гурко, 19 октября";
-        array2[9] = "Сережа Наумов, 3 мая";
-
-        lectures[0] = new Lev7Lec6Task4();
     }
 }
 
@@ -423,6 +397,117 @@ class Lev7Lec12Task3 implements Lecture{
     }
 }
 
+class Lev7Lec12Task7 implements Lecture{
+    @Override
+    public String info() {
+        return "Вывести лист в обратном порядке.";
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        listClass.inOut = new InOut();
+        listClass.inOut.print(listClass.arrayList);
+        Collections.reverse(listClass.arrayList);
+        listClass.inOut.print(listClass.arrayList);
+
+    }
+}
+
+class Lev7Lec12Task6 implements Lecture{
+    @Override
+    public String info() {
+        return "После введения пустой строки, все буквы в листе конвертируются в верхний регистр. " + "\r\n"+
+                "Если в строке чётное число букв, строка удваивается, если нечётное – утраивается";
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        Lev7Lec12Task5 lev7Lec12Task5 = new Lev7Lec12Task5();
+        lev7Lec12Task5.enter_str(listClass.arrayList);
+        Boolean flag=false;
+        for (String str:listClass.arrayList) {
+            if (str.equalsIgnoreCase("")){flag=true;}
+        }
+        String strforloop="";
+        if (flag) {
+            for (int i=0; i<listClass.arrayList.size();i++) {
+                strforloop=listClass.arrayList.get(i).toUpperCase();
+                listClass.arrayList.set(i, strforloop);
+            }
+        }
+        int index=-1;
+        for (String str:listClass.arrayList) {
+            if (str.length() % 2 == 0){
+                index = listClass.arrayList.indexOf(str);
+                listClass.arrayList.set(index, str+" "+str);
+            }else{
+                index = listClass.arrayList.indexOf(str);
+                listClass.arrayList.set(index, str+" "+str+" "+str);
+            }
+
+        }
+        lev7Lec12Task5.print(listClass.arrayList);
+    }
+}
+
+class InOut extends Lev7Lec12Task5{}
+
+class Lev7Lec12Task5 implements Lecture{
+    @Override
+    public String info() {
+        return "Добавление в лист строк пока не введено ключевое слово.";
+    }
+
+    void enter_str(ArrayList arrayList){
+        System.out.println("Вводите, для завершения 'stop'");
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String str="start", exit = "stop";
+        arrayList.clear();
+        while (!str.equalsIgnoreCase(exit)){
+            try {str = bufferedReader.readLine();}
+            catch (Exception e){System.out.println(e.getMessage());}
+            if (!str.equalsIgnoreCase(exit)) arrayList.add(str);
+        }
+    }
+    void print(List list){
+        System.out.println("Содержимое списка:");
+        System.out.println(list.toString());
+    }
+    void print(Set set){
+        System.out.println("Содержимое множества:");
+        System.out.println(set.toString());
+    }
+
+    void print(Map map){
+        System.out.println("Содержимое словаря:");
+        System.out.println(map.toString());
+    }
+
+    void print_map_of_Objects(Map<String, Object> map){
+        // это не реботает как надо
+        Iterator<Map.Entry<String, Object>> iterator = map.entrySet().iterator();
+        String str="";
+        while (iterator.hasNext()){
+            Map.Entry<String, Object> entry = iterator.next();
+            System.out.print(entry.getClass()+", ");
+        }
+    }
+
+    @Override
+    public void run() {
+        getinfo();
+        ListClass listClass = new ListClass();
+        print(listClass.arrayList);
+
+        enter_str(listClass.arrayList);
+        print(listClass.arrayList);
+    }
+}
+
 class Lev7Lec12Task4 implements Lecture {
     @Override
     public String info() {
@@ -447,6 +532,8 @@ class Lev7Lec12Task4 implements Lecture {
     }
 }
 
+
+
 public class Level7 {
     public static void main(String[] args) throws IOException{
         //Lecture lecture = new Lev7Lec5();
@@ -460,7 +547,7 @@ public class Level7 {
         //ListClass listClass = new ListClass();
         //listClass.lectures[0].run();
 
-        Lecture jobs = new Jobs(new Lev7Lec12Task4());
+        Lecture jobs = new Jobs(new Lev8Lec4());
 
         //Lecture jobs = new Jobs(new Lev7Lec6Task4(), new Lev7Lec6Task2(), new Lev7Lec6Task3());
         //jobs.run();

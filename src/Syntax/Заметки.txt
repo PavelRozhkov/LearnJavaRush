@@ -1,3 +1,18 @@
+
+https://javarush.com/quests/lectures/questsyntax.level08.lecture02
+Интерфейс	    Класс/Реализация	    Описание
+List	        ArrayList	            Список
+                LinkedList	            Список
+                Vector	                Вектор
+                Stack	                Стек
+Set  	        HashSet	                Множество
+                TreeSet	                Множество
+                SortedSet	            Отсортированное множество
+Map	            HashMap	                Карта/Словарь
+                TreeMap	                Карта/Словарь
+                SortedMap	            Отсортированный словарь
+                Hashtable	            Хеш-таблица
+
 Вызов маина другого пакета
 https://www.javatpoint.com/how-to-convert-string-to-string-array-in-java
 Level7.main(("1 2").split(" "));
