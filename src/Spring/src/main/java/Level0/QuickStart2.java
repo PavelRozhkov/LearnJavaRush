@@ -1,3 +1,4 @@
+package Level0;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 // https://javarush.com/groups/posts/1896-java-annotacii-chto-ehto-i-kak-ehtim-poljhzovatjhsja
 @SpringBootApplication
 @RestController
-public class QuickStart {
+public class QuickStart2 {
     public static void main(String[] args) {
         SpringApplication.run(QuickStart.class, args);
     }
