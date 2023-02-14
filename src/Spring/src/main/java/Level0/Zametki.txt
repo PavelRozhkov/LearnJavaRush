@@ -1,4 +1,8 @@
 -----
+2023.02.12
+В QuickStart2 есть метод hello и DemoApplication метод hello - выдавало ошибку
+переименовал на hello2 ошибка пропала
+-----
 2023.02.12 При компиляции Квикстарта ошибка, возможно из-за версии в поме
 Заработало когда в поме убрал все зависимости кроме
         <dependency>
@@ -11,6 +15,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.2.RELEASE</version>
     </parent>
+Потом обновил идею на IntelliJ IDEA 2022.3.2, JDK 17 и заработал первый вариант, который давал ошибку.
 
 Ошибка:
 Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springframework/beans/factory/ListableBeanFactory has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
@@ -32,7 +37,7 @@ Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springfra
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	at QuickStart.main(QuickStart.java:12)
+	at Level0.QuickStart2.main(Level0.QuickStart2.java:12)
 
 Старый пом:
 <?xml version="1.0" encoding="UTF-8"?>

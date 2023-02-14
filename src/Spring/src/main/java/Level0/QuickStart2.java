@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class QuickStart2 {
     public static void main(String[] args) {
-        SpringApplication.run(QuickStart.class, args);
+        SpringApplication.run(QuickStart2.class, args);
     }
-    @GetMapping("/hello")
-    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+    @GetMapping("/hello2")
+    public String hello2(@RequestParam(value = "name", defaultValue = "World") String name) {
         return String.format("Hello %s!", name);
     }
 }

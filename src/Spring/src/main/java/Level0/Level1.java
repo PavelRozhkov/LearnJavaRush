@@ -1,5 +1,7 @@
-package Spring;
+package Level0;
 
+import Syntax.Jobs;
+import Syntax.Lecture;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -53,6 +55,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * и общих аннотаций (JSR 250 - https://jcp.org/en/jsr/detail?id=250),
  * которые разработчики приложений могут использовать вместо специфичных для Spring механизмов,
  * предоставляемых Spring Framework.
+ *          Пока это убра с маина
+ *          SpringApplication.run(Level1.class, args);
+ *         // создаем и конфигурируем бины
+ *         ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
+ *         // получаем сконфигурированный экземпляр
+ *         PetStoreService service = context.getBean("petStore", PetStoreService.class);
+ *         // используем сконфигурированный экземпляр
+ *         List<String> userList = service.getUsernameList();
  */
 
 
@@ -78,18 +88,22 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Чтобы начать с нуля, перейдите к разделу «Начиная с Spring Initializr» https://spring.io/guides/gs/rest-service/#scratch
  */
 
+class QuickStart implements Lecture {
+    @Override
+    public String info() {
+        return "Cоздания простого веб-сервиса «Hello World» в Spring Boot";
+    }
+    @Override
+    public void run() {
+        getinfo();
+        DemoApplication.main(("run app").split(" "));
+    }
+}
+
 @SpringBootApplication
 public class Level1 {
+    //https://javarush.com/quests/QUEST_SPRING_PUBLIC
     public static void main(String[] args) {
-        System.out.println("Strarted.");
-        SpringApplication.run(Level1.class, args);
-        // создаем и конфигурируем бины
-        ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
-        // получаем сконфигурированный экземпляр
-        PetStoreService service = context.getBean("petStore", PetStoreService.class);
-        // используем сконфигурированный экземпляр
-        List<String> userList = service.getUsernameList();
-
-
+        Jobs jobs = new Jobs(new QuickStart());
     }
 }

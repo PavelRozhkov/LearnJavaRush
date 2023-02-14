@@ -105,7 +105,7 @@ JSTL/ Taglib
 Обработка исключений в Spring MVC
 Неделя 12: Миграция.
 Spring Boot 3.0.1
-Spring Data Rest/HATEOAS
+Spring Data guide_rest/HATEOAS
 Lombok
 H2
 Thymeleaf
